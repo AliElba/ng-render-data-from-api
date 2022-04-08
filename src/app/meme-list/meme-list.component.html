@@ -1,0 +1,10 @@
+<h2>Below is a list of all the available meme:</h2>
+
+<ul>
+    <li *ngFor="let item of meme$ | async">
+        <app-meme-list-item [item]="item"></app-meme-list-item>
+    </li>
+</ul>
+
+
+
